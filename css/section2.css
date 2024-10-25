@@ -1,0 +1,42 @@
+/* section2.css */
+.slider {
+    position: relative;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.slider img {
+    width: 100%;
+    display: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.slider img.active {
+    display: block;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.slider-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.slider-controls button {
+    background-color: var(--accent-color);
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.slider-controls button:hover {
+    background-color: var(--secondary-color);
+}

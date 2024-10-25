@@ -1,0 +1,18 @@
+/* section1.css */
+.section {
+    padding: 40px 0;
+    margin-bottom: 50px;
+}
+
+.intro-text {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    color: var(--secondary-color);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    animation: slideUp 1.5s ease-out;
+}

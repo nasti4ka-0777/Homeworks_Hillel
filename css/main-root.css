@@ -1,0 +1,52 @@
+/* main-root.css */
+:root {
+    --primary-color: #2f4454;
+    --secondary-color: #2e151b;
+    --accent-color: #da7b93;
+    --teal-color: #376e6f;
+    --dark-teal-color: #1c3334;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
