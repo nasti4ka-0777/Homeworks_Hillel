@@ -1,52 +1,30 @@
-/* main-root.css */
 :root {
-    --primary-color: #2f4454;
-    --secondary-color: #2e151b;
-    --accent-color: #da7b93;
-    --teal-color: #376e6f;
-    --dark-teal-color: #1c3334;
+    --color-primary: #4A4E69;
+    --color-secondary: #9A8C98;
+    --color-accent: #C9ADA7;
+    --color-light: #F2E9E4;
+    --color-dark: #22223B;
+    --font-main: 'Playfair Display', serif;
+    --font-secondary: 'Open Sans', sans-serif;
+    --spacing-sm: 1rem;
+    --spacing-md: 2rem;
+    --spacing-lg: 4rem;
+    --border-radius: 8px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: var(--primary-color);
-    color: #fff;
-}
-
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-/* Animations */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
-
-@keyframes slideUp {
-    from {
-        transform: translateY(50px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
-}
-
-@keyframes slideInLeft {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        transform: translateX(0);
-    }
+    font-family: var(--font-secondary);
+    color: var(--color-dark);
+    line-height: 1.6;
+    background: url('../images/watercolor-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh;
 }

@@ -4,48 +4,67 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/main-root.css" />
+        <link rel="stylesheet" href="css/styles.css" />
         <title>Farbenfröh Fantasie</title>
     </head>
 
-    <body style="margin:auto; width: 1200px;">
-        <div>
-            <h1 style="text-align: center;">Farbenfröh Fantasie </h1>
-        </div>
-        <div>
-            <h3>
-                <p>Willkommen bei <em>"Farbenfroh Fantasie</em>" — einem einzigartigen Kunststudio, in dem lebendige
-                    Fantasien auf Leinwand zum Leben erweckt werden. In unserer Kunst verbinden wir die Vielfalt der
-                    Farben
-                    mit der Zartheit der Aquarelltechnik, um feine und emotionale Werke zu schaffen. Unsere Gemälde sind
-                    voller Licht, Harmonie und einzigartiger Nuancen, die Ihren Raum schmücken und Ihre Individualität
-                    unterstreichen können.</p>
+    <body>
+        <div class="container">
+            <header class="hero">
+                <h1 class="hero__title">Farbenfröh Fantasie</h1>
+            </header>
 
-                <p>Jedes Werk erzählt eine Geschichte, die mit dem Pinsel geschrieben wurde und die tiefsten Emotionen
-                    weckt. Hier finden Sie Kunstwerke, die die Seele berühren, ästhetischen Genuss bieten und Sie in
-                    eine
-                    Welt der Träume entführen.</p>
+            <section class="intro">
+                <div class="intro__content">
+                    <p>Willkommen bei <em>Farbenfroh Fantasie</em> — einem einzigartigen Kunststudio, in dem lebendige
+                        Fantasien auf Leinwand zum Leben erweckt werden. In unserer Kunst verbinden wir die Vielfalt der
+                        Farben
+                        mit der Zartheit der Aquarelltechnik, um feine und emotionale Werke zu schaffen.</p>
 
-                <p>Besuchen Sie die Galerie von <em>"Farbenfroh Fantasie</em>" und wählen Sie ein Kunstwerk aus, das ein
-                    Teil Ihres Lebens wird oder ein wunderbares Geschenk für Ihre Liebsten darstellt.</p>
-            </h3>
-        </div>
-        <div>
-            <h2 style="text-align: center;">meine Bilden</h2>
-        </div>
-        <a style="text-align: center">
-            <img src="./images/img1.jpg" width="250" height="300" alt="image not found">
-            <img src="./images/img2.jpg" width="250" height="300" alt="image not found">
-            <img src="./images/img3.png" width="600" height="300" alt="image not found">
-        </a>
-        <div>
-            <h2>Kontakten</h2>
-            <h3>
-                <ul>
-                    <li>farbenfrohfantasie@gmail.com</li>
-                    <li>instagram.com/farbenfroh_fantasie</li>
-                    <li>+4917670671306</li>
+                    <p>Jedes Werk erzählt eine Geschichte, die mit dem Pinsel geschrieben wurde und die tiefsten
+                        Emotionen
+                        weckt. Hier finden Sie Kunstwerke, die die Seele berühren, ästhetischen Genuss bieten und Sie in
+                        eine
+                        Welt der Träume entführen.</p>
+
+                    <p>Besuchen Sie die Galerie von <em>Farbenfroh Fantasie</em> und wählen Sie ein Kunstwerk aus, das
+                        ein
+                        Teil Ihres Lebens wird oder ein wunderbares Geschenk für Ihre Liebsten darstellt.</p>
+                </div>
+            </section>
+
+            <section class="gallery">
+                <h2 class="gallery__title">Meine Bilder</h2>
+                <div class="gallery__grid">
+                    <div class="gallery__item">
+                        <img src="./images/img1.jpg" alt="Kunstwerk 1" class="gallery__image">
+                    </div>
+                    <div class="gallery__item">
+                        <img src="./images/img2.jpg" alt="Kunstwerk 2" class="gallery__image">
+                    </div>
+                    <div class="gallery__item gallery__item--wide">
+                        <img src="./images/img3.png" alt="Kunstwerk 3" class="gallery__image">
+                    </div>
+                </div>
+            </section>
+
+            <footer class="contact">
+                <h2 class="contact__title">Kontakten</h2>
+                <ul class="contact__list">
+                    <li class="contact__item">
+                        <a href="mailto:farbenfrohfantasie@gmail.com"
+                            class="contact__link">farbenfrohfantasie@gmail.com</a>
+                    </li>
+                    <li class="contact__item">
+                        <a href="https://instagram.com/farbenfroh_fantasie" class="contact__link"
+                            target="_blank">instagram.com/farbenfroh_fantasie</a>
+                    </li>
+                    <li class="contact__item">
+                        <a href="tel:+4917670671306" class="contact__link">+49 176 7067 1306</a>
+                    </li>
                 </ul>
-            </h3>
+            </footer>
         </div>
     </body>
 
